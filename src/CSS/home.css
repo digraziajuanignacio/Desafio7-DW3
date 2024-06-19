@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1, p, h2, h3, h4, a, li, label {
+    color: white;
+    font-family: "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+    font-weight: 500;
+    text-decoration: inherit;
+    list-style:none
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.principal h1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+
+}  
+
+.principal h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.edit button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
